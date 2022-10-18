@@ -1,3 +1,13 @@
+/****************************************************
+The-C-Programming-Language-Exercise-1.5 Pg. 14
+
+This is my solution to exercise 1.5 as defined in the book "The C Programming Language" 
+by Brian Kernighan and Dennis Ritchie.
+
+The exercise is defined as such: "Modify the temperature conversion program (from exercise 1-3) 
+to print the table in reverse order."
+*****************************************************/
+
 #include <stdio.h>
 
 // Print F -> C conversion table

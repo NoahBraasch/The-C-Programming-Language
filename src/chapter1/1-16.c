@@ -1,3 +1,15 @@
+/****************************************************
+
+The-C-Programming-Language-Exercise-1.16 Pg. 30
+
+This is my example of exercise 1.16 as defined in the book "The C Programming Language" 
+by Brian Kernighan and Dennis Ritchie The exercise is defined as such: 
+
+"Revise the main routine of the longest-line program so it will correctly print 
+the length of arbitrarily long input lines, and as much as possible of the text."
+
+*****************************************************/
+
 #include <stdio.h>
 #define MAXLINE 20
 
@@ -14,6 +26,7 @@ int main(){
 	char longest[MAXLINE];
 
 	saveflag = max = len = runningtotal = 0;
+	
 	while ((runningtotal += len = getline(line, MAXLINE)) > 0){
 		if (len == (MAXLINE - 1)){
 			if (saveflag == 0){

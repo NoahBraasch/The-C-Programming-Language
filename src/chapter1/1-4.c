@@ -1,6 +1,16 @@
+/****************************************************
+The-C-Programming-Language-Exercise-1.4 Pg. 13
+
+This is my solution to exercise 1.4 as defined in the book "The C Programming Language" 
+by Brian Kernighan and Dennis Ritchie  
+
+The exercise is defined as such: 
+"Write a program to print the corresponding Celcius to Farenheit table."
+*****************************************************/
+
 #include <stdio.h>
 
-// Print F -> C conversion table
+// Print C -> F conversion table
 int main(){
 
 	int fahr, celcius;
